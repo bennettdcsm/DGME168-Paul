@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* About Section CSS */
+
+#about {
+    width: 100%;
+   margin:5rem auto;
+    padding:5rem;
+    border-radius: 20px;
+    font-weight: bolder;
+	min-height: 100vh;
+
+}
+
+.about-title {
+    color: #737373;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap; /* 반응형 대응 */
+}
+
+.about-text {
+    flex: 1;
+    min-width: 280px;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    font-style: italic;
+    letter-spacing: 2px;
+    color: #737373;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-text p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: #000;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 280px;
+}
+
+.about-image img {
+    max-width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#contact {
+  width: 100%;
+  margin: 0;
+  padding: 5rem;
+  border-radius: 20px;
+  min-height: 70vh;
+    font-size: 14px;
+}
+
+
+
+
+.image-container {
+  display: flex;
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: flex-end; /* 수직 아래 정렬 */
+  height: 200px; /* 컨테이너 높이 지정 */
+  background-color: #fff; /* 확인용 배경색 */
+  
+}
+
+.contact-form {
+	
+            margin-top: -50px;
+	margin-left: auto; /* 자동 여백을 추가 */
+  margin-right: 10%;   /* 오른쪽 여백을 제거 */
+  width: 50%;  
+        }
+        .contact-form input {
+            width: 500px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #a0d8ef;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+        }
+        .contact-details {
+            margin-top: 30px;
+        }
+button {
+  display: flex;          /* 버튼을 flexbox 컨테이너로 설정 */
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center;    /* 수직 중앙 정렬 */
+  width: 150px;           /* 버튼 너비 */
+  height: 50px;           /* 버튼 높이 */
+  background-color: #41C0F2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #369BD1;
+}
+
+.responsive-image {
+  max-width: 100%; /* 이미지 크기 유지 */
+  height: auto;
+}
+
+
+.styled-button{  
+  width: 150px;
+  height: 50px;
+  background-color: rgba(65, 192, 242, 0.5); /* 50% 투명도 적용 */
+  border: none;
+  color: #585858;
+  font-family: SF Pro, sans-serif;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+	
+
+
+a{
+    color: #585858;
+    text-decoration: none;
+}
