@@ -4,8 +4,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
-	
+body {
 	background-image: url("images/anime.jpeg");
 	background-size: cover;
 	background-repeat: repeat;
@@ -15,7 +14,6 @@ body{
     height: 100vh; 
      font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 #home{
@@ -207,3 +205,81 @@ a{
 .sns{
 	font-size: 1.7rem;
 }
+/*  Mobile  */
+@media (max-width: 767px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-box {
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .profile-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .sub-title, .name {
+    font-size: 1.5rem;
+    top: -50px;
+  }
+
+  #about, #project, #services, #contact {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .home-btn {
+    width: 40px;
+    height: 40px;
+    bottom: 80px;
+    right: 30px;
+    font-size: 0.9rem;
+  }
+}
+
+/*  Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .description {
+    font-size: 1.3rem;
+    padding: 1.5rem;
+  }
+
+  .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .sub-title, .name {
+    font-size: 2rem;
+  }
+
+  .home-btn {
+    width: 45px;
+    height: 45px;
+    bottom: 90px;
+    right: 40px;
+  }
+
+  .menu-box {
+    padding-top: 80px;
+    padding-right: 20px;
+  }
+}
+
